@@ -13,7 +13,6 @@ public class SimpleTest {
   public void simpleTest() {
     String name = "my name";
     assertThat(name).isEqualTo("my name");
-    // System.getProperties().list(System.out);
-    System.out.println(System.getProperty("my.prop"));
+    assertThat(System.getProperty("my.prop")).isEqualTo("hello");
   }
 }
