@@ -79,6 +79,8 @@
               <buildArgs>
                 <buildArg>--no-fallback</buildArg>
                 <buildArg>--no-server</buildArg>
+                <buildArg>--initialize-at-build-time=com.example</buildArg>
+                <buildArg>-Dmy.prop=hello</buildArg>
               </buildArgs>
             </configuration>
           </plugin>
