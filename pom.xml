@@ -79,6 +79,7 @@
               <buildArgs>
                 <buildArg>--no-fallback</buildArg>
                 <buildArg>--no-server</buildArg>
+                <buildArg>-Dmy.prop=hello</buildArg>
               </buildArgs>
             </configuration>
           </plugin>
