@@ -1,4 +1,7 @@
 # native-image-system-properties
+A reproducer to explore an issue with native image support for tests that use System Properties. 
+
+This sample specifies the System Property in the root pom.xml as part of the [Maven Surefire plugin's configuration](https://github.com/mpeddada1/native-image-system-properties/blob/48c5ffb3c911ad4013b2809106514ab7141f29b9/pom.xml#L50).
 
 Run `mvn test -P native` at the root directory:
 
